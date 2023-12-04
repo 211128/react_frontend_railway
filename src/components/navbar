@@ -1,0 +1,39 @@
+import React from 'react';
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+// import '../contexts/Navbar'
+
+function Navbar() {
+  return (
+     
+      <>
+        <input type="checkbox" id="active" />
+        <label htmlFor="active" className="menu-btn">
+          <i className="fas fa-bars"></i>
+        </label>
+
+        <div className="wrapper">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">Gallery</a>
+            </li>
+            <li>
+              <a href="#">Feedback</a>
+            </li>
+          </ul>
+        </div>
+      
+      </>
+    
+  );
+}
+
+export default Navbar;
