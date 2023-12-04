@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* bg-gray-50 en formato RGB */
+body {
+    background-color: #F9FAFB; /* Fondo en formato hexadecimal */
+    background-color: rgb(249, 250, 251); /* Fondo en formato RGB */
+  }
+  
+  /* dark:bg-gray-900 en formato RGB */
+  body.dark {
+    background-color: #111827; /* Fondo en formato hexadecimal para el modo oscuro */
+    background-color: rgb(17, 24, 39); /* Fondo en formato RGB para el modo oscuro */
+  }
+  
